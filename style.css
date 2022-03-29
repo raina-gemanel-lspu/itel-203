@@ -1,0 +1,92 @@
+body {
+  background-color: mediumpurple;
+  font-style: oblique;
+  color: white;
+
+}
+.signup_form {
+  padding: 35px;
+  background-color: white;
+  color: black;
+  font-family: sans-serif;
+  font-size: 25px;
+  position: absolute;
+  top: 150px;
+  right: 0;
+  border: 3px solid blueviolet;
+  margin-right: 10%;
+  margin-bottom: 30px;
+  
+}
+
+.form-group {
+  position: relative;
+  flex: 1 0 0;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  position: relative;
+}
+.cbox {
+  font-size: 20px;
+}
+.form-control {
+  font-size: 20px;
+  margin-left: 25px;
+  object-position: 25%;
+  margin-top: 5px;
+  position: right;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.list-inline {
+  list-style-type: none;
+  margin-left: 60px;
+}
+.btn-form {
+  width: 150px;
+  height: 55px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 3px solid blueviolet;
+}
+.btn-form2 {
+  width: 150px;
+  height: 55px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  border: 3px solid blueviolet;
+ }
+ .btn-form3 {
+  width: 150px;
+  height: 55px;
+  padding: 5px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 80px;
+  border: 3px solid blueviolet;
+ }
+.signup_link {
+  margin-left: 110px;
+  font-size: 15px ;
+}
+.company_name {
+  float: left;
+  margin-top: 275px;
+  margin-left: 175px;
+
+}
+h1 {
+  font-size: 70px;
+}
+h3 {
+  font-size: 30px;
+}
+hr.line1 {
+  color: white;
+  width: 75%;
+  text-align: left;
+  margin-left: 0px;
+}
