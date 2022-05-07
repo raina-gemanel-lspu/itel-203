@@ -1,0 +1,303 @@
+           <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+           .body {
+
+           }
+           @font-face 
+           {
+            font-family: 'robotoblack';
+            src: url('roboto-black-webfont.woff2') format('woff2'),
+            url('roboto-black-webfont.woff') format('woff');
+            font-weight: normal;
+            font-style: normal;
+
+            }
+           .nav-link 
+           {
+                font-size: 18px;
+                line-height: 28px;
+                margin: 0px 20px;
+                font-weight: 400;
+                align-items: center;
+           }
+
+              .site-main .site-banner .site-title h3 
+              {
+                 padding-top: 35%;                
+             }
+             .p-mid , .mid-top 
+             {
+                 margin-top: 80px; 
+             }
+             .mid-bottom 
+             {
+                 margin-top: 60px; 
+                 text-indent: 1.5em;
+                 margin-bottom: 40px;
+             }
+             .card-name
+             {
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                letter-spacing: -0.8px;
+                text-transform: uppercase;
+             }
+             .text-secondary , .nested p
+             {
+                font-weight: 400;
+                font-size: 20px;
+
+             }
+             .text-tertiary
+             {
+                font-weight: 400;
+                font-size: 20px;
+                padding-left: 0;
+             }
+             .nav-link , h3 , h1,  .card-name, .text-secondary .text-tertiary, .btn1, p , .card-text2 a , .nested p , .para3 p, .para4 p , h5 , .para5 p 
+             {
+                font-family: 'helvetica';
+                font-style: normal;
+                color: #0B1118;
+             }
+              h3 , .p-mid , .text-secondary , .text-tertiary , .btn1  , .card-text2 a , .pink-link a , .nested p , .para2 , .para3
+             {
+               line-height: 28px;           
+             }
+             h3 , .p-mid , .para2 .para3
+             {
+                font-weight: 400;
+                font-size: 18px;     
+             }
+             h2
+             {
+                font-weight: 700;
+                font-size: 72px;
+                line-height: 72px;
+                letter-spacing: -1px;
+                margin-bottom: 48px;
+             }
+
+             .btn1
+             {
+                width: 111px;
+                height: 48px;
+                background: #0B1118;
+                border-radius: 40px;
+                font-weight: 500;
+                font-size: 18px;
+                text-align: center;
+                color: #FFFFFF;
+             }
+             
+             .btn2
+             {
+                padding: 0px 24px;
+                color: #FFFFFF;
+                height: 48px;
+                left: 0;
+                background: #FC0E52;
+                border-radius: 40px;
+                border: none;
+                }
+
+                .mid
+                {
+                    left: 0px;
+                    top: 976px;
+                    background: rgba(244, 234, 228, 0.4);
+                }
+                .pink
+                {
+                    background: #FC0E52;
+                    color: #FFFFFF;
+                    padding-top: 48px;
+                    padding-bottom: 48px;
+                    margin-top: -40px;
+                }
+                h4
+                {
+                    font-weight: 700;
+                    font-size: 60px;
+                    line-height: 60px;
+                    letter-spacing: -1px;
+                    color: #FFFFFF;
+                    margin-top: 50px;
+                }
+                .pink-link
+                {
+                    padding-top: 60px;
+                    padding-left: 0;
+                }
+                .pink-link a
+                {
+                    color: #FFFFFF;
+                    font-weight: 500;
+                    font-size: 18px;
+                    
+                }
+                .down
+                {
+                    background: rgba(244, 234, 228, 0.4);
+                }
+                .para1
+                {
+                    padding-left: 50px;
+                }
+                .nested
+                {
+                    width: 422px;
+                    height: 228px;
+                    left: 96px;
+                    top: 332px;
+                    padding-left: 60px;
+                    
+                }
+                .flashcard
+                {
+                    width: 394.67px;
+                    height: 596px;
+                    background: #FFFFFF;
+                    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.08);
+                    border-radius: 8px;
+                }
+                .card-img, .card-body
+                {
+                    margin-left: 48px;
+                }
+                .card-img
+                {
+                    margin-top: 48px;
+                    
+
+                }
+                
+                .card-text2 li ,  .pink-link li
+                {
+                    list-style: none;
+                   
+                }
+                .card-text2 a:link ,  .pink-link a:link
+                {
+                    font-weight: 500;
+                    text-decoration: none;
+                   
+                }
+                .fa-chevron-right
+                {
+                    padding-right: 20px;
+                    padding-bottom: 20px;
+                }
+                .card-text1
+                {
+                    width: 298.67px;
+                    height: 84px;
+                }
+                .card-body
+                {
+                    width: 322.67px;
+                    height: 280px;
+                    left: 48px;
+                    top: 168px;
+                }
+                
+                .nav-menu {
+
+                }
+                .nav-item2
+                {
+                    background: #FC0E52;
+                    border-radius: 48px;
+                    
+                }
+                .nav-item2 a
+                {
+                    color: #FFFFFF;
+                }
+                .para5
+                {
+                    font-size: 16px;
+                    line-height: 24px;
+                    
+                }
+                .card-body1
+                {
+                    padding-left: 20px;
+                }
+                .para4
+                {
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+               
+                .footer-area
+                {
+                    top: 5015px;
+                    background: #0B1118;
+
+                }
+                .para6, .para7 ,.para8 , .para9 , .para10
+                {
+                    color: #FFFFFF;
+                }
+                .image img
+                {
+                    width: 200px;
+                    height: 200px;
+                    border-radius: 50%;
+                }
+                 .image , .text
+                 {
+                     margin-top: 60px;
+                 }
+                 .para7
+                 {
+                     font-weight: 400;
+                     font-size: 24px;
+                     line-height: 32px;
+                     margin-top: 10px;
+                 }
+                 .solid
+                 {
+                     height: 1px;
+                     background: #FFFFFF;
+                     opacity: 0.24;
+                 }
+                 
+
+                
+                .site-banner {
+                    background: url(back.png);
+                    background-size: 100%;
+                    background-repeat: no-repeat;
+
+                }
+                
+            li {
+                float: left;
+                }
+
+            .menu1 ul {
+                }
+
+                .menu1 li a 
+                {
+                 display: block;
+                 color: black;
+                 text-align: center;
+                 padding: 14px 16px;
+                 text-decoration: none;
+                 border-radius: 70px;
+                }
+
+                .menu1 a:hover {
+                 color: white;
+                 box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, .3);
+  
+                }   
+
+
+                
+                
+        
