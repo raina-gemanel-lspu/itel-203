@@ -1,0 +1,70 @@
+html, body {
+	height: 100%;
+	
+}
+
+
+.columns {
+ display: block;
+ border-collapse: collapse;
+ text-align: left;
+ padding: 0;
+ width: 100%;
+
+}
+.col-50 {width: 50%;}
+.col-12, .col-25, .col-33, .col-37, .col-50, .col-62, .col-66, .col-75, .col-87, .col-100 {
+	text-align: left;
+	display: block;
+	float: left;
+	padding: 10px 4px;
+	box-sizing: border-box;
+}
+.col-12 img, .col-25 img, .col-33 img, .col-37 img, .col-50 img, .col-62 img, .col-66 img, .col-75 img, .col-87 img, .col-100 img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	
+	padding: 0;
+	box-sizing: border-box;
+}
+@media screen and (min-width: 200px) {
+ .columns {display: table;}
+ .col-12, .col-25 {width: 50%;}
+ .col-33, .col-37, .col-50, .col-62, .col-66, .col-75, .col-87, .col-100 {width: 100%;}
+}
+@media screen and (min-width: 680px) {
+ .col-12, .col-25 {width: 25%;}
+ 
+ .col-37 {width: 37.5%;}
+ .col-50 {width: 50%;}
+ .col-62 {width: 62.5%;}
+ .col-66 {width: calc(2/3*100%);}
+ .col-75 {width: 75%;}
+ .col-87 {width: 87.5%;}
+ .col-100 {width: 100%;}
+}
+@media screen and (min-width: 1200px) {.col-12 {width:12.5%;}}
+
+
+
+.clearfix::after {
+ 
+ content: "";
+ clear: both;
+ display: table;
+}
+
+
+body {font-family: Times New Roman;}
+p.column-name {
+ color: #fff;
+ text-align: left;
+ font-weight: bold;
+ padding: 30px 30px;
+ font-size: 30px;
+}
+
+
+.bg-green {background-color: #00b301;}
+.bg-white {background-color: #ffffff;}
